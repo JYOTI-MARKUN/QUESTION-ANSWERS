@@ -1,4 +1,4 @@
-Que : What is JavaScript ? What is the roll of JavaScript engine?
+Que1 : What is JavaScript ? What is the roll of JavaScript engine?
 Ans : Js is programming language that is use to convert static web pages into dynamic or interective web pages
 the code send ny the browser is converted by the js engine that is available in all web browser for example
 crome has V8 engine
@@ -8,19 +8,22 @@ edge has chakra
 
 jS engine is a program present in web browser that execute javascript code.
 
-Que : What are client side and server side?
+Que2 : What are client side and server side?
 Client : It is a device, application or software that requests and consumes services or resources from a server 
 Server : It is a device sofware or application that provides service resources or function to the client
 
-Que: what are varibales ? What is the difference between let, const and var keyword ? 
+Que3: what are varibales ? What is the difference between let, const and var keyword ? 
 Ans: Variable are the container use to store the variable, there are three types of variable in js 
 var : var creates a functional scoped variable 
 let : let creates a local scope variable 
 const : it is also local scoped but varibale defined with const can not be reasigned a value
 all variable in js is hoisted but let and const lies in temporary dead zone and also in case of variable only variable declaration is hoisted not initialization
 
-Que: What are some important string operation in JS ?
+Que4: What are some important string operation in JS ?
 Ans: str.length , str.replace,str.includes,str.replaceAll,str.firstIndexOf,str.lastIndexof,str.charAt,str.charCodeAt,str.toLowerCase,str.toUpperCase,str.splice,str.splice,str.trim,str.remove,str.repeat,str.padstart,str.padEnd
 
-Que: Whta is DOM ? What is the difference between HTML and DOM ?
+Que: Whta is HOF ?
+Ans: HIgher Order Functios are the function that takes another function as the argument or return a function some example fo higher order function are Map, Filter and Reduce
+ 
+
 
