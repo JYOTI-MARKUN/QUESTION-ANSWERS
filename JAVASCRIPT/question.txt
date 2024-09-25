@@ -1,0 +1,72 @@
+Preparation, focus, and revision are crucial for interviews.
+02:25 JavaScript plays a crucial role in web development.
+08:04 Let and const create block-scoped variables in JavaScript.
+10:59 Const keyword in JavaScript
+16:11 JavaScript's trim method removes white spaces from the beginning and end of a string.
+19:32 Selectors in JavaScript help to get specific elements from DOM based on ID, class names, and tag names.
+24:02 Introduction to JavaScript data types
+26:23 Understanding JavaScript data types and operators
+31:17 Overview of logical and string operators in JavaScript
+33:37 JavaScript Control Flow
+38:04 Understanding different types of loops in JavaScript
+40:20 Function calls and execution
+45:06 Arrow functions in JavaScript are a concise way of defining functions.
+47:25 Understanding and structuring unstructured data
+52:34 Understanding objects, properties, and methods in JavaScript
+54:57 Variables accessibility and hosting in JavaScript
+59:34 Error handling using try and catch blocks and synchronous programming in JavaScript
+1:01:54 Understanding non-blocking and synchronous code in JavaScript
+1:06:19 Primitive data types in JavaScript do not support mutation, while non-primitive data types like arrays and objects do.
+1:08:55 Difference between primitive and non-primitive data types in JavaScript
+1:13:40 Undefined variables are automatically initialized with undefined.
+1:15:48 Identifying variable types using type of operator
+1:20:25 Comparison and type coercion in JavaScript
+1:22:52 Explaining unary, binary, and ternary operators in JavaScript and Short Circuit Evaluation
+1:27:42 Short circuit evaluation is an efficient way to stop evaluation when the result can be determined early
+1:30:08 JavaScript conditions, operators, and ternary operator
+1:34:54 Difference between double equals and triple equals operators
+1:37:18 Spread operator in JavaScript
+1:42:08 Rest and spread operators in JavaScript
+1:44:26 Find method gets the first element that satisfies a condition
+1:49:15 Difference between push and concat methods
+1:51:46 Differences between pop and shift methods of arrays
+1:56:39 Slice, Splice, Remove, and Replace methods in JavaScript
+1:58:51 Map and forEach are array methods for modification and iteration.
+2:03:23 Understanding array modification and sorting in JavaScript
+2:05:30 JavaScript provides methods to sort and reverse arrays, and array restructuring is important for data organization.
+2:09:47 Array-like objects in JavaScript have limitations compared to regular arrays
+2:11:57 Ways to convert an array-like object to an array
+2:16:23 Difference between for and while loops
+2:18:33 Flow diagram of the do-while loop
+2:22:47 Difference between for and for of loop
+2:25:23 Explaining the difference between for of and for in loop in JavaScript
+2:29:55 Iterating over properties of objects using for..in loop
+2:32:14 For of loop provides more control and is suitable for iterating over each element.
+2:36:49 Understanding when to use named functions and anonymous functions
+2:38:56 Function expression in JavaScript
+2:43:30 Callback function passed as an argument to another function
+2:45:53 Understanding higher order functions and callback functions
+2:50:47 Ways to pass arguments to a JavaScript function.
+2:52:52 Default parameters in JavaScript functions
+2:57:15 Treating functions as variables in JavaScript.
+2:59:34 Pure functions always produce the same output for the same input.
+3:03:59 JS functions can have side effects
+3:06:08 Introduction to higher order functions
+3:10:45 Understanding the usage of call, apply, and bind in JavaScript
+3:12:55 Understanding JavaScript context and the differences between call, apply, and bind methods.
+3:17:36 JavaScript string manipulation and templates.
+3:19:52 String Interpolation and Multiline Strings in JavaScript
+3:24:29 Different methods for concatenating strings and DOM manipulation in JavaScript
+3:26:43 Understanding event handling and DOM manipulation in JavaScript
+3:31:11 Difference between text content and inner HTML
+3:34:11 Adding and removing properties and styles in HTML elements using JavaScript
+3:38:45 Understanding the creation and manipulation of elements in the DOM
+3:41:11 Difference between create element and create text node
+3:45:56 Understanding the purpose of the throw statement in JavaScript
+3:48:13 The 'typeof' operator finds the data type of a variable.
+3:53:04 Understanding error handling in JavaScript
+3:55:14 Types of JavaScript Errors
+3:59:39 Differences between arrays and objects
+4:01:58 Difference between dot notation and bracket notation in JavaScript
+Crafted by Merlin AI.
+
