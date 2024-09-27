@@ -22,8 +22,57 @@ all variable in js is hoisted but let and const lies in temporary dead zone and 
 Que4: What are some important string operation in JS ?
 Ans: str.length , str.replace,str.includes,str.replaceAll,str.firstIndexOf,str.lastIndexof,str.charAt,str.charCodeAt,str.toLowerCase,str.toUpperCase,str.splice,str.splice,str.trim,str.remove,str.repeat,str.padstart,str.padEnd
 
-Que: Whta is HOF ?
+Que5: Whta is HOF ?
 Ans: HIgher Order Functios are the function that takes another function as the argument or return a function some example fo higher order function are Map, Filter and Reduce
+
+Que6: What is DOM ? What is the Difference between HTML and DOM ?
+Ans: DOM represents the web page as a tree-like structure of HTML that allows javascript to access and manipulate the content and the structure of the web page, HTML is just the static representation of the web content, the memory plays with the DOM to make access and manipulate web content 
+HTML Is static representation of the webpage
+DOM is the interface to make the static web page dynamic with the help of js
+
+Que7: What are Selector in JS ?
+Ans: Selector in JS helps to access the html element from DOM with the help of id selector class selector , element selector ,query selector
+
+Que8: What is the difference between getElementById, getElementsByClass, getElementsByTagName ?
+Ans: All three are the selector used in js to access and manipulate the content of the web page , 
+getElementById : Use To get the element with the help of Id given to the element and has only one
+getElementsByClass :  Use To get the element with the help of class given to the element and can be multiple
+getElementsByTagName : Use To get the element with the help of tagName of the element and can be multiple
+
+Que9: Js is implicit language How ?
+Ans: Js is implicit language as it sometimes shows implicit behaviour like type coercion and variable declaration.Js sometimes tries to predict what we are trying to do which can lead to unexpected behaviour when not handled correctly
+like 
+1. type coercion console.log("5" + 3);  // Output: "53" (number 3 is coerced to a string)
+console.log("5" - 3);  // Output: 2 (string "5" is coerced to a number)
+2. implicit global variable: when we defined a varibale with using const, let and var declaration js declare it as global variable
+3. Function argument : JavaScript allows a function to call with more or fewer argument than declare which can lead implicit value life Undefined
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(5));    // Output: NaN (b is implicitly `undefined`, so 5 + undefined)
+This implicit behavior makes JavaScript more flexible but requires caution when writing code, especially for beginners.
  
+Que10: What are Data types in JS ?
+Ans: A data type determines the type of a variable,in JavaScript there are two types of Data type Primitive and Non Primitive
+Primitive Data Type : Numbers, Strings, Booleans, Undefined, Null, BigInt, Symbol  (only one value can assign in primitive data type in one time)
+Non Primitive Data Type : Oject, Array, Function, Date, RegExp  (multiple values can be assign in non primitive data type in one time)
 
 
+Que11: What are operators ? What are the types of operators in JS ?
+Ans: Operators are the Symbol or keyword used to perform operations on operands
+Types of Oprators : Arithmetic, Assignment, Logical, Comparision,String(+ OPEAROR THAT IS USED TO CONCATE TWO STRINGS)
+
+Que12: What are the types of conditions statement in JS ?
+Ans: if/else, Ternary operator, Switch statement
+
+Que13: What is loop ? What are the type of loop in JS ?
+Ans: A loop is a programming way to run a piece of code repeatedly untill a certain consition is meet
+Type of loop in JS : For, while, do while, for of, for in 
+
+Que14: What are Functions in JS ? What are the types of function ? 
+Ans: A function is a reusable block of code that performs a specific task, in the program function is defined once and can be used any where and any number of time in the program
+Type of function in JS : Named Function, Function expression, Function Declaration, Arrow Function, IIFE, CallBack, Higher Order Function
+
+Que15: What are Arrow Functions in JS ? What is its use ?
+Ans: 
