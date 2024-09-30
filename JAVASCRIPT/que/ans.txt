@@ -105,3 +105,25 @@ Function
 Arrays
 
 objects are called REFERENCE type here when we compare two object only it address is compared not the value as they can contain multiple values
+
+Que3: What is the purpose of the Object() constructor? How is it different from object literals?
+Ans: Object() constructor is javascript in-built constructor to create objects in js , if we want to create new objet from constructor function we need to call it with new Object() or Object(), after creating object usung Object() constructor we need to add properties to it manually
+const obj = new Object()
+obj1.name = "jyoti";
+console.log(obj1)
+console.log(obj1.name)
+
+object literal are more simple way to create an object in js usually a object is created using this method only 
+const obj = {
+    "Name":"Jyoti",
+    "age":21,
+    "array":["apple","mango","potato",2,5],
+   "innerObj" :{
+    "LastName" :"Markun",
+    "profession":"Developer"
+   }
+};
+
+
+
+
