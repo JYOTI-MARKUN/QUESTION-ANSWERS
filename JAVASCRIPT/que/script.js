@@ -93,3 +93,24 @@ const filteredArray = array.filter((num)=>num%2===0)
 
 console.log(filteredArray)
 
+//Arrow function
+let arrowFunction =(a,b)=>{
+    return a+b
+}
+
+console.log(arrowFunction(5,5))
+
+// object 
+const obj = {
+    "Name":"Jyoti",
+    "age":21,
+    "array":["apple","mango","potato",2,5],
+   " innerObj" :{
+    "LastName" :"Markun",
+    "profession":"Developer"
+   }
+};
+
+const obj2 = new Object()
+const obj1 = Object()
+

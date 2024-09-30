@@ -75,4 +75,33 @@ Ans: A function is a reusable block of code that performs a specific task, in th
 Type of function in JS : Named Function, Function expression, Function Declaration, Arrow Function, IIFE, CallBack, Higher Order Function
 
 Que15: What are Arrow Functions in JS ? What is its use ?
-Ans: 
+Ans: Arrow function is the shorthand syntax to write function in the js, previously arrpw function were known as fat arrow function
+
+
+// QUESTIONS RELATED TO OBJECT
+Que1: How do you create an object using an object literal?
+Ans: An object can be defined using key value pair separted by , inside curly braces a object can store another object, array and other data types,
+const obj = {
+    "Name":"Jyoti",
+    "age":21,
+    "array":["apple","mango","potato",2,5],
+   "innerObj" :{
+    "LastName" :"Markun",
+    "profession":"Developer"
+   }
+};
+
+Que2: How do you create an object using a constructor function?
+Ans: An object can be created using object constructor thta already exist in JS it can either be created using new keyword before Object()constructor or with new keyword
+const obj2 = new Object() // create empty object preferre this
+const obj1 = Object() // also create empty object
+const obj3 ={} // best method to create object
+
+// NON PRIMITIVE DATA TYPE ALSO CALLED REFERENCE TYPE AND PRIMITIVE IS CALLED VALUE TYPE
+NON PRIMITIVE DATA TYPE : OBJECT
+OBJECT ARE FURTHER DIVIDED INTO THREE CATEGORY
+Object Literals
+Function
+Arrays
+
+objects are called REFERENCE type here when we compare two object only it address is compared not the value as they can contain multiple values
