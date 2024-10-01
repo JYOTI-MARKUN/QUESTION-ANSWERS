@@ -124,6 +124,58 @@ const obj = {
    }
 };
 
+Que4: How can you create an object using the Object.create() method? What is the benefit of using this approach?
+Ans: Object.create() method takes an existing object as the first argument and makes a new object from it and the new created has all the property of the object from which it is created in its prototype and also we can add o=new properties to prototype of the new object
 
+const personPrototype = {
+    greet(){
+        console.log(`Hii, My name is ${this.name}`);
+    }
+};
+
+const childObj = Object.create(personPrototype)
+childObj.name = "jyoti"
+console.log(childObj)
+childObj.greet();
+
+const childObj2 = Object.create(personPrototype,{
+name:{value:"jyoti",writable:true},
+age:{value:25,writable:true}
+})
+console.log(childObj2)
+childObj2.name="Markun"
+console.log(childObj2)
+
+Que: How do you add a property to an object after it has been created?
+Ans : We can add property to an object after it has been created by using dot notion 
+we first need to write object name then . or [] notation and then name of the property we wanna add and assign value to it 
+const obj = {}
+obj.name = "jyoti"
+obj["last-name"] ="markun"
+
+we use dot notation when we have key name simple and it does not involve any special character or Symbol
+use square notation when we wanna make name with special character and inside the square barcket key name should be wrapped in quote
+
+
+Que: How do you delete a property from an object?
+Ans: To deleet a property from an object we use delete operator. delete operator delete the property from an object if it exist if it does not exist it does not through an error, we can delete property from an object using dot as well as square bracket notation
+
+const obj3 = {
+    name:"jyoti",
+    age:26,
+    lastName: "Markun",
+   "profession@":"developer"
+}
+
+console.log(obj3);
+console.log("lastName" in obj3);
+
+delete obj3.lastName;
+console.log(obj3);
+console.log("lastName" in obj3);
+
+delete obj3["profession@"]
+console.log(obj3);
+console.log("lastName" in obj3);
 
 
