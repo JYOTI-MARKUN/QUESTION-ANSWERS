@@ -46,3 +46,13 @@ console.log(obj3);
 console.log("lastName" in obj3);
 
 
+
+let count = 0;
+(function immediate(){
+    if(count===0){
+     count+=1;
+     immediate()
+    }
+    console.log(count);
+})();
+
